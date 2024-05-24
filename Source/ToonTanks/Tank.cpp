@@ -33,7 +33,7 @@ void ATank::Trun(float Value){
 void ATank::BeginPlay()
 {
 	Super::BeginPlay();
-    PlayerControllerRef = Cast<APlayerController>(GetController());
+    TankPlayerController = Cast<APlayerController>(GetController());
 }
  
 void ATank::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent){
@@ -47,21 +47,25 @@ void ATank::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponen
 void ATank::Tick(float DeltaTime){
     Super::Tick(DeltaTime);
 
-    FHitResult hitResult;
-    bool HasHit = PlayerControllerRef->GetHitResultUnderCursor(
-        ECC_Visibility,
-        false,
-        hitResult
-    );
-
-    if(HasHit){
-        DrawDebugSphere(
-            GetWorld(), 
-            hitResult.ImpactPoint, 
-            50.f, 10,
-            FColor::Red, false, -1.f
+    if (TankPlayerController)
+    {
+        FHitResult hitResult;
+        bool HasHit = TankPlayerController->GetHitResultUnderCursor(
+            ECC_Visibility,
+            false,
+            hitResult
         );
 
-        RotateTurret(hitResult.ImpactPoint);
+        if(HasHit){
+            RotateTurret(hitResult.ImpactPoint);
+        }
     }
 }
+
+void ATank::HandleDestruction()
+{
+    Super::HandleDestruction();
+    SetActorHiddenInGame(true);
+    SetActorTickEnabled(false);
+}
+
