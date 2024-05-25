@@ -15,6 +15,9 @@ public:
 	// Sets default values for this actor's properties
 	AProjectile();
 
+	 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Damage")
+	float Damage = 50.f;
+
 private:
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
 	class UStaticMeshComponent* ProjectileMesh;	
@@ -24,9 +27,6 @@ private:
 
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OhterActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
-
-	UPROPERTY(EditAnywhere)
-	float Damage = 50.f;
 
 protected:
 	// Called when the game starts or when spawned

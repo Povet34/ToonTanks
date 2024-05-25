@@ -64,22 +64,6 @@
 		"directory": "E:\\Unreal's\\UE_5.3\\Engine\\Source"
 	},
 	{
-		"file": "E:\\UnrealContents\\ToonTanks\\ToonTanks\\Source\\ToonTanks\\ToomTanksGameMode.cpp",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\UnrealContents\\ToonTanks\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"
-		],
-		"directory": "E:\\Unreal's\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "E:\\UnrealContents\\ToonTanks\\ToonTanks\\Source\\ToonTanks\\ToomTanksGameMode.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\UnrealContents\\ToonTanks\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"
-		],
-		"directory": "E:\\Unreal's\\UE_5.3\\Engine\\Source"
-	},
-	{
 		"file": "E:\\UnrealContents\\ToonTanks\\ToonTanks\\Source\\ToonTanks\\ToonTanks.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
@@ -97,6 +81,22 @@
 	},
 	{
 		"file": "E:\\UnrealContents\\ToonTanks\\ToonTanks\\Source\\ToonTanks\\ToonTanks.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\UnrealContents\\ToonTanks\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"
+		],
+		"directory": "E:\\Unreal's\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UnrealContents\\ToonTanks\\ToonTanks\\Source\\ToonTanks\\ToonTanksGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\UnrealContents\\ToonTanks\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"
+		],
+		"directory": "E:\\Unreal's\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UnrealContents\\ToonTanks\\ToonTanks\\Source\\ToonTanks\\ToonTanksGameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
 			"@E:\\UnrealContents\\ToonTanks\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.1.rsp"

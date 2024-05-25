@@ -9,6 +9,8 @@
 
 void AToonTanksGameMode::ActorDied(AActor* DeadActor)
 {
+    UE_LOG(LogTemp, Display, TEXT("%s"), *DeadActor->GetName());
+
     if(DeadActor == Tank)
     {
         Tank->HandleDestruction();
