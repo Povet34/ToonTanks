@@ -2,19 +2,19 @@
     "configurations": [
         {
             "name": "ToonTanksEditor Editor Win64 Development (ToonTanks)",
-            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
             "cStandard": "c17",
             "cppStandard": "c++20",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "D:\\UE5_Contents\\ToonTanks\\.vscode\\compileCommands_ToonTanks.json"
+            "compileCommands": "E:\\UnrealContents\\ToonTanks\\ToonTanks\\.vscode\\compileCommands_ToonTanks.json"
         },
         {
             "name": "Win32",
-            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
             "cStandard": "c17",
             "cppStandard": "c++20",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "D:\\UE5_Contents\\ToonTanks\\.vscode\\compileCommands_Default.json"
+            "compileCommands": "E:\\UnrealContents\\ToonTanks\\ToonTanks\\.vscode\\compileCommands_Default.json"
         }
     ],
     "version": 4
