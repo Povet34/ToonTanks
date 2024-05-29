@@ -21,6 +21,8 @@ public:
 	APlayerController* GetTankPlayerController() const { return TankPlayerController; }
 	void HandleDestruction();
 
+	bool bAlive = true;
+
 private:
 	UPROPERTY(EditAnywhere, Category = "Movement")
 	float MoveSpeed = 2000.f;
@@ -37,5 +39,4 @@ private:
 	void Trun(float Value);
 
 	class APlayerController* TankPlayerController;
-
 };
