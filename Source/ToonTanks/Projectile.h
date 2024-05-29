@@ -42,6 +42,9 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Combat")
 	USoundBase *HitSound;
 
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	TSubclassOf<class UCameraShakeBase> HitCameraShakeClass;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
