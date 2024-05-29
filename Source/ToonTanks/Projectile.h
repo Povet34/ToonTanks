@@ -31,6 +31,9 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Combat")
 	class UParticleSystem* HitParticles;
 
+	UPROPERTY(VisibleAnywhere, Category = "Combat")
+	class UParticleSystemComponent* TrailParticles;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

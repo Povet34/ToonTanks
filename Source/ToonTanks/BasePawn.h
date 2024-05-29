@@ -38,5 +38,8 @@ private:
 	
 	class AToonTanksGameMode* ToonTanksGameMode;
 
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	class UParticleSystem* DeathParticles;
+
 public:	
 };
